@@ -13,7 +13,7 @@ const io = new Server(server, {
         origin: [
             process.env.FRONTEND_URL,
             'http://localhost:3000',
-            'https://whatsapp-crm.kiaantechnology.com'
+            'https://whatsapp-crm.kiaantechnology.com',
         ].filter(Boolean),
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         credentials: true
